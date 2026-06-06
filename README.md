@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# ⚡ AI ACADEMY
 
-## Getting Started
+> A fast, modern web application built using Next.js 15 (App Router) and TypeScript, engineered for seamless performance and responsive user experiences.
 
-First, run the development server:
+---
 
+## 📌 Key Features
+
+*   **🌐 Next.js App Router Architecture:** Utilizes modern layout paradigms, server-side rendering (SSR), and static site generation (SSG) for optimal load times.
+*   **🛡️ Type-Safe Development:** Built entirely with TypeScript, ensuring high code reliability, strict interfaces, and easier debugging.
+*   **🎨 Optimized Typography & UI:** Integrated with `next/font` utilizing the Geist font family for modern, layout-shift-free rendering.
+*   **⚡ Fast HMR:** Leverages Next.js Turbopack/Webpack configurations for instantaneous hot module reloading during development.
+
+---
+
+## 🛠️ Tech Stack
+
+*   **Framework:** Next.js (App Router)
+*   **Language:** TypeScript
+*   **Styling:** [e.g., Tailwind CSS / CSS Modules / Shadcn UI]
+*   **State Management / APIs:** [e.g., React Context, Axios, or Fetch API]
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to spin up the local development server.
+
+### Prerequisites
+
+Ensure you have Node.js and a package manager installed:
+*   [Node.js](https://nodejs.org/) (v18.17.0 or higher recommended)
+*   `npm` (comes with Node), `yarn`, `pnpm`, or `bun`
+
+```
+### Installation & Development
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install project dependencies**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+   npm install
+   # or yarn install / pnpm install / bun install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
 
-## Learn More
+3. **Run the local development server**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+   npm run dev
+   # or yarn dev / pnpm dev / bun dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+*Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) in your web browser to view the application.*
 
-## Deploy on Vercel
+4. **Build for Production**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+   npm run build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+
+*Compiles an optimized production build tracking static assets and server route configurations inside the `.next` directory.*
+
+---
+
+## 📦 Project Directory Structure
+
+```text
+├── app/                  # Next.js App Router routes & layouts
+│   ├── layout.tsx        # Global layout, metadata, & font setups
+│   └── page.tsx          # Main entry page view
+├── public/               # Static assets (images, icons, vectors)
+├── components/           # (Optional) Reusable UI components
+├── next.config.ts        # Next.js framework configuration
+├── tsconfig.json         # TypeScript configuration mapping
+└── package.json          # Dependency trees and run scripts
+
+```
+
+---
