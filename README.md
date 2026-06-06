@@ -1,4 +1,3 @@
-```markdown
 # ⚡ AI ACADEMY
 
 > A fast, modern web application built using Next.js 15 (App Router) and TypeScript, engineered for seamless performance and responsive user experiences.
